@@ -1,0 +1,27 @@
+#the_page{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-area: "Header Header"
+    "Sidebar Content"
+    "Footer Footer";
+
+
+}
+
+header {
+    grid-area: Header;
+    background-color: orange;
+
+}
+
+h1{
+    color: rgb(240, 213, 162);
+}   
+
+nav{
+grid-area: Sidebar;
+}
+
+main{
+    grid-area: Content;
+}
